@@ -1,0 +1,247 @@
+/* Chargement de la font personnalisée */
+@font-face {
+  font-family: 'Syne';
+  src: url('../fonts/Syne-VariableFont_wght.ttf') format('truetype');
+}
+
+body * {
+  font-family: 'Syne', sans-serif !important;
+}
+
+/* HEADER */
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  width: 240px;
+  height: auto;
+}
+
+.header-main {
+  background-color: #FFFFFF;
+}
+
+header button {
+  color: white;
+  background-color: #DC9F96;
+  height: 60px;
+  width: 120px;
+  border-style: none;
+}
+
+nav#site-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-branding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+li a {
+  margin: 15px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+ul .nav-links li {
+  padding: 1rem;
+  display: flex;
+}
+
+li {
+  display: flex;
+  margin-right: 15px;
+}
+
+ul {
+  margin: 0 !important;
+}
+
+#primary-menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* FOOTER */
+.site-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+  height: 60px;
+  font-size: 16px;
+}
+
+button.commander {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* FORMULAIRE */
+
+#formulaire input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #FFFFFF;
+}
+
+#formulaire {
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  color: #FFFFFF;
+}
+
+input#nombre {
+  width: 39px;
+  height: 56px;
+}
+
+input {
+  text-transform: none;
+  font-size: 16px;
+}
+
+#boutonCommander {
+  background-color: #e0B9B4;
+  /* couleur de fond */
+  color: white;
+  /* couleur du texte */
+  text-transform: none;
+  font-size: 16px;
+  padding: 15px 30px;
+  /* espacement du texte par rapport aux bords du bouton */
+  border: none;
+  /* suppression de la bordure */
+  border-radius: 5px;
+  /* arrondi des coins */
+  cursor: pointer;
+  /* changement du curseur au survol du bouton */
+}
+
+#boutonCommander:hover {
+  background-color: #C02E44;
+  /* couleur de fond au survol */
+}
+
+div .wpforms-submit-container {
+  display: flex;
+}
+
+#wpforms-650-field_3 {
+  width: 60%;
+}
+
+button.commander {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.wpforms-submit-container {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+
+
+
+/************************/
+/****** responsive ******/
+@media (max-width: 768px) {
+  div .site-branding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  button a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+  }
+
+  button.commander {
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 480px) {
+  div .site-branding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  button a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+  }
+
+  button.commander {
+    background-color: #ffffff;
+  }
+  
+  button.commander:hover {
+    background-color: #ffffff;
+  }
+
+  button a:hover {
+    color: #C02E44;
+    text-decoration: none;
+    background-color: #ffffff;
+  }
+
+}
