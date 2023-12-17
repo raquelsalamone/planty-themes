@@ -8,7 +8,8 @@
 </br>
 <a href="https://www.figma.com/file/bcc8q196ZE5RKN1r50hRt8/Maquette-Planty-P6-Wordpress?type=design&node-id=0-1&mode=design" target="_blank" alt= Maquette Booki style="margin-top: 10px;"> Maquette Design</a>
 <br>
-
+<a href="https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/DWP_P6+WordPress+PHP+Planty/DW+P6+Wordpress+-+Sp%C3%A9cifications+fonctionnelles.pdf" alt=Planty style="margin-top: 10px;"> Specifications fonctionnelles</a>
+</br>
 
 ---
 
